@@ -10,8 +10,9 @@ recipe            "zend-server::xdebug", "Installs the xdebug pecl package"
 recipe            "zend-server::phing", "Installs the phing pear package"
 recipe            "zend-server::phpdocumentor", "Installs the phpdoc pear package"
 recipe            "zend-server::phpunit", "Installs the phpunit pear package"
+recipe            "zend-server::composer", "Installs composer executable"
 
-%w{ debian ubuntu centos suse fedora redhat scientific amazon freebsd windows mac_os_x }.each do |os|
+%w{ debian ubuntu }.each do |os|
   supports os
 end
 
