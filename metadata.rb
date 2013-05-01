@@ -4,7 +4,7 @@ maintainer_email  "team@continuousphp.com"
 license           "Apache 2.0"
 description       "Installs and configures zend server"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version           "0.1"
+version           "0.1.1"
 recipe            "zend-server", "Includes the server recipe to configure the base server"
 recipe            "zend-server::xdebug", "Installs the xdebug pecl package"
 recipe            "zend-server::phing", "Installs the phing pear package"
